@@ -1,0 +1,9 @@
+*.csv
+*.zip
+presentation-jadco.pdf
+consignes.pdf
+manifest.json
+
+.venv/
+__pycache__/
+.ipynb_checkpoints/
