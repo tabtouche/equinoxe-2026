@@ -1,0 +1,11 @@
+year,market,vacancy_rate,turnover_rate,rent,rental_universe
+2021,Montréal,3.0,11.4,932.0,612757
+2022,Montréal,2.0,10.3,1022.0,621229
+2023,Montréal,1.5,9.6,1096.0,632708
+2024,Montréal,2.1,11.1,1176.0,653365
+2025,Montréal,2.9,9.4,1346.0,667266
+2021,Ottawa — partie Ontario,3.4,22.8,1550.0,66667
+2022,Ottawa — partie Ontario,2.1,16.8,1625.0,71062
+2023,Ottawa — partie Ontario,2.1,16.5,1698.0,72591
+2024,Ottawa — partie Ontario,2.6,14.5,1880.0,78463
+2025,Ottawa — partie Ontario,3.0,15.4,1926.0,82160
