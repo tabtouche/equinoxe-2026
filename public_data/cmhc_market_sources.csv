@@ -1,0 +1,41 @@
+year,market,variable,source_file,source_sheet,source_cell,raw_value,quality_code
+2021,Montréal,vacancy_rate,rmr-canada-2021-fr.xlsx,Table 1.0,D19,"3,0",a
+2021,Montréal,turnover_rate,rmr-canada-2021-fr.xlsx,Table 1.0,I19,"11,4",a
+2021,Montréal,rent,rmr-canada-2021-fr.xlsx,Table 1.0,N19,932,a
+2021,Montréal,rental_universe,rmr-canada-2021-fr.xlsx,Table 4.1,N9,612 757,
+2021,Ottawa — partie Ontario,vacancy_rate,rmr-canada-2021-fr.xlsx,Table 1.0,D35,"3,4",b
+2021,Ottawa — partie Ontario,turnover_rate,rmr-canada-2021-fr.xlsx,Table 1.0,I35,"22,8",a
+2021,Ottawa — partie Ontario,rent,rmr-canada-2021-fr.xlsx,Table 1.0,N35,1 550,a
+2021,Ottawa — partie Ontario,rental_universe,rmr-canada-2021-fr.xlsx,Table 4.1,N15,66 667,
+2022,Montréal,vacancy_rate,rmr-canada-2022-fr.xlsx,Tableau 1.0,D19,"2,0",a
+2022,Montréal,turnover_rate,rmr-canada-2022-fr.xlsx,Tableau 1.0,I19,"10,3",a
+2022,Montréal,rent,rmr-canada-2022-fr.xlsx,Tableau 1.0,N19,1 022,a
+2022,Montréal,rental_universe,rmr-canada-2022-fr.xlsx,Tableau 4.1,N9,621 229,
+2022,Ottawa — partie Ontario,vacancy_rate,rmr-canada-2022-fr.xlsx,Tableau 1.0,D35,"2,1",a
+2022,Ottawa — partie Ontario,turnover_rate,rmr-canada-2022-fr.xlsx,Tableau 1.0,I35,"16,8",a
+2022,Ottawa — partie Ontario,rent,rmr-canada-2022-fr.xlsx,Tableau 1.0,N35,1 625,a
+2022,Ottawa — partie Ontario,rental_universe,rmr-canada-2022-fr.xlsx,Tableau 4.1,N15,71 062,
+2023,Montréal,vacancy_rate,rmr-canada-2023-fr.xlsx,Tableau 1.0,D21,"1,5",b
+2023,Montréal,turnover_rate,rmr-canada-2023-fr.xlsx,Tableau 1.0,I21,"9,6",a
+2023,Montréal,rent,rmr-canada-2023-fr.xlsx,Tableau 1.0,N21,1 096,a
+2023,Montréal,rental_universe,rmr-canada-2023-fr.xlsx,Tableau 4.1,N9,632 708,
+2023,Ottawa — partie Ontario,vacancy_rate,rmr-canada-2023-fr.xlsx,Tableau 1.0,D37,"2,1",a
+2023,Ottawa — partie Ontario,turnover_rate,rmr-canada-2023-fr.xlsx,Tableau 1.0,I37,"16,5",a
+2023,Ottawa — partie Ontario,rent,rmr-canada-2023-fr.xlsx,Tableau 1.0,N37,1 698,a
+2023,Ottawa — partie Ontario,rental_universe,rmr-canada-2023-fr.xlsx,Tableau 4.1,N15,72 591,
+2024,Montréal,vacancy_rate,rmr-canada-2024-fr.xlsx,Tableau 1.0,D21,"2,1",b
+2024,Montréal,turnover_rate,rmr-canada-2024-fr.xlsx,Tableau 1.0,I21,"11,1",a
+2024,Montréal,rent,rmr-canada-2024-fr.xlsx,Tableau 1.0,N21,1 176,a
+2024,Montréal,rental_universe,rmr-canada-2024-fr.xlsx,Tableau 4.1,N9,653 365,
+2024,Ottawa — partie Ontario,vacancy_rate,rmr-canada-2024-fr.xlsx,Tableau 1.0,D37,"2,6",a
+2024,Ottawa — partie Ontario,turnover_rate,rmr-canada-2024-fr.xlsx,Tableau 1.0,I37,"14,5",a
+2024,Ottawa — partie Ontario,rent,rmr-canada-2024-fr.xlsx,Tableau 1.0,N37,1 880,a
+2024,Ottawa — partie Ontario,rental_universe,rmr-canada-2024-fr.xlsx,Tableau 4.1,N15,78 463,
+2025,Montréal,vacancy_rate,rmr-canada-2025-fr.xlsx,Tableau 1.0,D21,"2,9",a
+2025,Montréal,turnover_rate,rmr-canada-2025-fr.xlsx,Tableau 1.0,I21,"9,4",a
+2025,Montréal,rent,rmr-canada-2025-fr.xlsx,Tableau 1.0,N21,1 346,a
+2025,Montréal,rental_universe,rmr-canada-2025-fr.xlsx,Tableau 4.1,N9,667 266,
+2025,Ottawa — partie Ontario,vacancy_rate,rmr-canada-2025-fr.xlsx,Tableau 1.0,D37,"3,0",b
+2025,Ottawa — partie Ontario,turnover_rate,rmr-canada-2025-fr.xlsx,Tableau 1.0,I37,"15,4",a
+2025,Ottawa — partie Ontario,rent,rmr-canada-2025-fr.xlsx,Tableau 1.0,N37,1 926,a
+2025,Ottawa — partie Ontario,rental_universe,rmr-canada-2025-fr.xlsx,Tableau 4.1,N15,82 160,
