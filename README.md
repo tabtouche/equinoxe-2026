@@ -94,18 +94,15 @@ Les versions ont été testées sous Windows 11.
 
 ## Sources publiques
 
-Les données ont été téléchargées en octobre 2026 et vont jusqu'en décembre 2025, comme les données CRM.
+Les séries couvrent 2021 à 2025 et s'arrêtent en décembre 2025, comme les données CRM.
 
 | Fichier (`raw_public_data/`) | Source | Contenu |
 |---|---|---|
-| `rmr-canada-2021-fr.xlsx` à `rmr-canada-2025-fr.xlsx` | SCHL, *Enquête sur les logements locatifs*, tableaux du Rapport sur le marché locatif ([cmhc-schl.gc.ca](https://www.cmhc-schl.gc.ca)) | inoccupation, rotation, loyer moyen, univers locatif, variation du loyer à échantillon fixe ; RMR de Montréal et d'Ottawa (partie Ontario) |
-| `schl-inoccupation.csv` | Statistique Canada, tableau 34-10-0127-01 (données SCHL) | taux d'inoccupation, Montréal et Ottawa (partie Ontario), 2014-2025 |
-| `schl-loyers.csv` | Statistique Canada, tableau 34-10-0133-01 (données SCHL) | loyer moyen des 2 chambres, 2014-2025 ; recoupe les fichiers Excel, non utilisé dans le notebook |
-| `ipc-loyers.csv` | Statistique Canada, tableau 18-10-0004-01 | IPC mensuel, composante loyer, Canada, Québec, Ontario, 2015-2025 |
-| `IPC.csv` | Statistique Canada, tableau 18-10-0004-01 | IPC mensuel, Canada, par groupe de produits, 2015-2025 ; non utilisé dans le notebook final |
-| `msrche-du-travail.csv` | Statistique Canada, tableau 14-10-0460-01 | population active par RMR (Montréal, Toronto, Vancouver), 2015-2025 |
-| `evolution-demographique.csv` | Statistique Canada, tableau 17-10-0149-01 | composantes de l'accroissement démographique par RMR, 2015/2016 à 2024/2025 |
-| `mise-en-marche.csv` | Statistique Canada, tableau 34-10-0156-01 | mises en chantier, Canada, 2015-2025 ; non utilisé dans le notebook final |
+| `rmr-canada-2021-fr.xlsx` à `rmr-canada-2025-fr.xlsx` | SCHL, *Enquête sur les logements locatifs*, tableaux du Rapport sur le marché locatif ([cmhc-schl.gc.ca](https://www.cmhc-schl.gc.ca)) | inoccupation, rotation, loyer moyen, univers locatif, variation du loyer à échantillon fixe (2020-2025) ; RMR de Montréal et d'Ottawa (partie Ontario) |
+| `IPC.csv` | Statistique Canada, tableau 18-10-0004-01 | IPC mensuel, Canada, par groupe de produits (composante « Logement » utilisée), 2021-2025 |
+| `msrche-du-travail.csv` | Statistique Canada, tableau 14-10-0460-01 | population active par RMR (Montréal, Toronto, Vancouver), 2021-2025 |
+| `evolution-demographique.csv` | Statistique Canada, tableau 17-10-0149-01 | composantes de l'accroissement démographique par RMR, 2021/2022 à 2024/2025 |
+| `mise-en-marche.csv` | Statistique Canada, tableau 34-10-0156-01 | mises en chantier, Canada, 2021-2025 ; non utilisé dans le notebook final |
 
 Taux réglementaires (`public_data/regulatory_rates.csv`) :
 
@@ -121,7 +118,7 @@ directrice : selon la règle ontarienne, les logements occupés pour la premièr
 - scikit-learn, `HistGradientBoostingRegressor` : https://scikit-learn.org
 - **Claude Code (Anthropic)** a été utilisé pour :
   - aider à écrire le code et les textes ;
-  - télécharger les séries publiques de Statistique Canada ;
+  - extraire et rapprocher les séries publiques (SCHL, IPC) ;
   - tester les variables publiques ;
   - mettre en forme le notebook et ce README.
 
