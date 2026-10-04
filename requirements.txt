@@ -1,8 +1,9 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-statsmodels
-jupyterlab
-nbstripout
+pandas==3.0.6
+numpy==2.5.3
+matplotlib==3.11.2
+scikit-learn==1.9.1
+joblib==1.6.0
+jupyterlab==4.6.4
+ipykernel==7.4.0
+nbconvert==7.17.1
+nbstripout==0.9.1
